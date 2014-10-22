@@ -196,18 +196,6 @@ class Game
 				puts "3. Cure Serious Wonds (50 coins)"
 				puts "4. Exit Menu"
 				menu_option = gets.chomp.to_i
-<<<<<<< HEAD
-				case
-          when 1
-				    char.set_hit_points(char.get_hit_points + char.get_money * 2)
-				    char.set_money(0)
-				    char.save
-			    when 2
-				    healexit = 0
-          when 3
-            healexit = 0
-         end
-=======
 				case menu_option
 				  when 1
 				    if char.get_money >= 5
@@ -229,7 +217,6 @@ class Game
                 storeexit = 0
             end
 		  end
->>>>>>> 6f5f290adbd0bc8766eadbe441af0c170417d0b7
         when 6
           shopexit = 0
           system("cls")
@@ -239,5 +226,3 @@ class Game
     end
   end
     end
-  end
-end
