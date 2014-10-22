@@ -116,7 +116,7 @@ class Game
     end
   end
 
-  def shopping(char)
+  def shopping(char) #bulky, consider moving off game.rb
     shopexit = -1
     while shopexit != 0
       puts "1. Wonderful World of Weapons"
